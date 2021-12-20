@@ -6,7 +6,7 @@ export default function EditForm(props){
 					<form>
 					  <label>
 					   	Text:
-					    <input type="text" name="text" value={props.text} onChange={props.handleChange} />
+					   	<textarea name="text" value={props.text} onChange={props.handleChange} />
 					  </label>
 					  <input type="submit" value="Add" onClick={props.createContent} />
 					</form>
@@ -19,7 +19,7 @@ export default function EditForm(props){
 					<form>
 					  <label>
 					   	Text:
-					    <input type="text" name="text" value={props.text} onChange={props.handleChange} />
+					    <textarea name="text" value={props.text} onChange={props.handleChange} />
 					  </label>
 					  <input type="submit" value="Update" onClick={props.updateContent} />
 					</form>
