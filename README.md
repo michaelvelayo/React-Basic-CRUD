@@ -1,3 +1,3 @@
-# Basic React CRUD operations
+# Basic React CRUD
 
-Check out the app: [here](https://react-proj-1-crud.netlify.app/)
+[Link](https://react-proj-1-crud.netlify.app/)
